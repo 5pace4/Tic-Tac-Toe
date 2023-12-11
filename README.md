@@ -1,26 +1,29 @@
-# Tic-Tac-Toe
+# Tic-Tac-Toe Game
 
-Tic Tac Toe is a MINIMAX game. This game is implemented in python Here. You can experiences this game. Try here.
+## Introduction
+Welcome to the Tic-Tac-Toe game repository! This simple console-based Python game allows two players to compete against each other in the classic Tic-Tac-Toe game.
 
-# Game Rules:
-1. Two player will play this game. Every player will choose a box number between (1-9).
-2. If it's Player1 turn,  put 'X'. Else player2 put 'O'.
-3. If anyone can match a row or column or any diagonal with their respective symbol('X' or 'O') he/she will be the winner.
+## Description
+Tic-Tac-Toe is a two-player game where each player takes turns marking a cell in a 3x3 grid with their symbol ('X' or 'O'). The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is declared the winner. The game ends in a draw if the entire board is filled without a winner.
 
-# Game starting
-1. Player will move first
+## Playing Rules
+1. The game is played on a 3x3 grid.
+2. Players take turns marking an empty cell with their symbol ('X' or 'O').
+3. The game ends when a player wins by having three of their symbols in a row (horizontally, vertically, or diagonally) or when the board is full, resulting in a draw.
+4. Players are prompted to input the cell number where they want to place their symbol.
+5. Invalid moves are not allowed, and the player must choose an empty cell.
 
-# Game Board Numbering
-1 2 3
+## How to Play
+1. Clone the repository to your local machine.
+2. Open a terminal or command prompt.
+3. Navigate to the directory where the game is located.
+4. Run the game using the command: `python tic_tac_toe.py` (replace `python` with your Python interpreter command).
 
-4 5 6
+## Conclusion
+Enjoy playing the Tic-Tac-Toe game! Feel free to provide feedback, report issues, or contribute to the improvement of the game. Have fun and may the best player win!
 
-7 8 9
+## Copyright
+This game is open-source and distributed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code, but please refer to the LICENSE file for detailed terms and conditions.
 
-But in the board you will see look likes below:
+---
 
-###'
-
-###'
-
-###'

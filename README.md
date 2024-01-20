@@ -4,7 +4,7 @@
 # Wanna Try this Game?
 🎮 Download the `tic_tac_toe_app.exe` from the `dist` directory and run on your computer or visit [tictac.streamlit.app](https://tictac.streamlit.app/) for play here without any trouble.
 
-## Index
+## Contents
 1. [Introduction](#introduction)
 2. [Description](#description)
 3. [Playing Rules](#playing-rules)

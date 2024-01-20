@@ -25,11 +25,7 @@ def valid(pos):
   else:
     return False
 def checkWin(player):
-  chk = ''
-  if player+1 == 1:
-    chk = 'X'
-  else :
-    chk = 'O'
+  chk = 'X' if player == 0 else 'O'
 
   # check row
   if board[0] == chk and board[1] == chk  and board[2] == chk:
